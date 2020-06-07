@@ -1,0 +1,107 @@
+.input_wrapper {
+    margin: 10px;
+    font-size: 16pt;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}    
+
+.exercise-list {
+    width: 250px;
+    margin: 2rem auto 0 auto;
+}
+
+.exercise-list-row {
+    display: flex;
+    font-size: 18pt;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b2fafd;
+    background-color: #b8d3f5;
+    margin: 10px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.top-bar {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: coral;
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_button {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.all-exercises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.add-exercise-card {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 18pt;
+    cursor: pointer;
+    background-color: #b8d3f5;
+}
+
+.input_button.left {
+    align-items: flex-end;
+}
+
+.input_button.right {
+    align-items: flex-start;
+}
+
+.input {
+    width: 150px;
+    text-align: center;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.input_wrapper input {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    border-bottom: 1px black solid;
+    font-size: 25pt;
+    width: 140px;
+    color: inherit;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #8fb4e0;
+}
